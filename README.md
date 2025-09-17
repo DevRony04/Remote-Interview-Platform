@@ -63,16 +63,16 @@ codesync/
 
 ## ⚙️ Installation
 
-1. **Clone the repo**
+1. **Clone the repo** :-
 
 - git clone https://github.com/your-username/codesync.git
 - cd codesync
 
-2. **Install dependencies**
+2. **Install dependencies** :-
 
 - npm install
 
-3. **Set environment variables in .env.local**
+3. **Set environment variables in .env.local** :-
 
 - NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_frontend_api
 - CLERK_SECRET_KEY=your_clerk_secret_key
@@ -80,7 +80,7 @@ codesync/
 - STREAM_SECRET=your_stream_secret
 - CONVEX_DEPLOYMENT=your_convex_deployment_url
 
-4. **Run locally**
+4. **Run locally** :-
 
 - npm run dev
 
