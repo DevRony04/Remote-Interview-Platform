@@ -34,7 +34,7 @@ It combines all the tools needed for technical interviews into one platform, all
 
 ## 🛠 Tech Stack
 
-- Framework: Next.js (App Router) + TypeScript
+- Framework: Next.js 15 + TypeScript
 
 - UI: Tailwind CSS + Shadcn UI
 
