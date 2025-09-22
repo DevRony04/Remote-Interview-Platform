@@ -42,7 +42,7 @@ It combines all the tools needed for technical interviews into one platform, all
 
 - Video & Streaming: Stream
 
-- Real-time Sync: Convex
+- Real-time Reactive Database: Convex
 
 - Coding Dashboard: Monaco Editor / CodeMirror (your choice)
 
