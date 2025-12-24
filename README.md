@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🚀 CodeSync – Remote Video Calling Interview Platform
 
-## Getting Started
+<img width="1869" height="908" alt="Screenshot 2025-09-05 120555" src="https://github.com/user-attachments/assets/c1dfe0fc-a4c7-4e93-8da6-1a1352ade9fe" />
 
-First, run the development server:
+## 📌 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+CodeSync is a next-generation remote interview platform that provides video calling, screen sharing, recording, and an integrated live coding dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It combines all the tools needed for technical interviews into one platform, allowing recruiters to evaluate candidates effectively without juggling between Zoom, Google Meet, and separate coding editors.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎥 HD Video Calls – Smooth, real-time interviews with Stream.
 
-## Learn More
+- 🖥️ Screen Sharing – Share code, presentations, or problem statements.
 
-To learn more about Next.js, take a look at the following resources:
+- 📼 Recording & Playback – Save and review interview sessions later.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 💻 Side Coding Dashboard – Built-in coding editor where candidates can:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Write, run, and test code live.
 
-## Deploy on Vercel
+- Support for multiple languages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Interviewer sees candidate’s code in real time.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🔐 Secure Authentication – Clerk ensures safe access for both interviewers and candidates.
+
+- ⚡ Real-time Data Handling – Convex backend keeps video, chat, and code synced.
+
+- 🎨 Modern & Responsive UI – Built with Tailwind CSS + Shadcn for a professional look.
+
+- 🏗️ Scalable Architecture – Leverages Next.js server components for high performance.
+
+## 🛠 Tech Stack
+
+- Framework: Next.js 15 + TypeScript
+
+- UI: Tailwind CSS + Shadcn UI
+
+- Authentication: Clerk
+
+- Video & Streaming: Stream
+
+- Real-time Reactive Database: Convex
+
+- Coding Dashboard: Monaco Editor / CodeMirror (your choice)
+
+- Deployment: Vercel
+
+## 📂 Project Structure
+codesync/
+- │── app/                # Next.js app router pages
+- │── components/         # UI components (Shadcn)
+- │── convex/             # Convex backend functions
+- │── editor/             # Coding dashboard logic
+- │── lib/                # Utility functions
+- │── public/             # Static assets
+- │── styles/             # Global styles
+- │── .env.local          # Environment variables
+- │── package.json
+- │── README.md
+
+## ⚙️ Installation
+
+1. **Clone the repo** :-
+
+- git clone https://github.com/your-username/codesync.git
+- cd codesync
+
+2. **Install dependencies** :-
+
+- npm install
+
+3. **Set environment variables in .env.local** :-
+
+- NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_frontend_api
+- CLERK_SECRET_KEY=your_clerk_secret_key
+- NEXT_PUBLIC_STREAM_API_KEY=your_stream_api_key
+- STREAM_SECRET=your_stream_secret
+- CONVEX_DEPLOYMENT=your_convex_deployment_url
+
+4. **Run locally** :-
+
+- npm run dev
+
+## 🚀 Deployment 
+
+Vercel -> https://remote-interview-platform-gold.vercel.app
+
+## 📜 License
+
+- Licensed under the MIT License – see LICENSE
